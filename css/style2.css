@@ -1,0 +1,116 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1 {
+  font: 22px/1.8 arial;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #155b91;
+  padding-bottom: 12px;
+  border: rgb(226, 218, 218);
+  border-bottom-style: solid;
+  border-width: 3px;
+
+  margin-bottom: 0;
+ 
+  }
+h2 {
+  font: 16px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 32px;
+  text-align: left;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  word-spacing: 0.1px;
+  }
+
+  h3 {
+  font: bolder 19px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#2d73a9;
+  margin-top: 12px;
+  margin-bottom: 18px;
+  padding-bottom: 22px;
+  text-align: left;
+  line-height: 19px;
+  letter-spacing: 0.7px;
+  word-spacing: 0.1px;
+  border: rgb(226, 218, 218);
+  border-bottom-style: solid;
+  border-width: 3px;
+  }
+
+.logoimg{
+  float:left;
+    margin-left: 7px;
+    margin-right: 14px;
+    margin-top: 9px;
+}
+
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+select {
+  
+  background: #fff;
+  border: 1px solid black;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: black;
+  height: 24px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  width: 205px;
+  margin-left: 94px;
+  padding-top: 2px;
+}
+.city{
+  margin-top: 12px;
+}
+input {
+  width: 212px;
+  border-radius: 2px;
+  border-width: 1px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 87px;
+  height: 27px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  margin-top: 2px;
+  margin-bottom: 18px;
+  
+}
+label{
+  
+  font-size: 16px;
+  padding-left: 2px;
+  position: absolute;
+  text-align: left;
+  margin-top: 5px;
+  letter-spacing: 0.6px;
+}
+}
+#aducation{
+  font: 46px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 25px;
+  margin-bottom: 32px;
+  text-align: left;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  word-spacing: 0.1px;
+}
+.country{
+  margin-left: 0px;
+}
+
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Формы на веб-странице</title>
+  <link rel="stylesheet" href="css/style2.css">
+</head>
+
+<body>
+  <header>
+    <h1>Регистрация</h1>
+    <!--<nav>
+      <a href="#" title="На главную">На главную</a>
+    </nav>-->
+  </header>
+  <main>
+    <article class="c1">
+      <h2><img src="images/VK-0.jpg" alt="ВК лого" width="40" height="40" class="logoimg"><b>ВКонтакте.ру</b> - сетевой проект, который поможет Вам узнать больше о людях, которые Вас<br> окружают, а также найти потерянных друзей и поддерживать с ними связь. Вы сможете<br> делиться информацией, ограничивая круг лиц, которым она будет доступна. </h2>
+      <form action="/signup" method="POST">
+        <h3>Имя</h3>
+        <fieldset>
+          <label>Имя:</label>
+          <input type="text" required="required" name="first_name"><br>
+          <label>Фамилия:</label>
+          <input type="text" required="required" name="last_name"><br>
+          <label>E-mail:</label>
+          <input type="text" required="required" id="email_notnull"><br>
+          <label class="pass_label">Пароль:</label>
+          <input class="pass_input" type="password" name="password"><br>
+
+        </fieldset>
+        <h3><br><br>Образование</h3>
+        <fieldset class="account-action">
+          <label class="country">Страна:</label>
+          <select name="country">
+            <option>Беларусь</option>
+            <option>Россия</option>
+            <option>Украина</option>
+            <option>Польша</option>
+            <option>Литва</option>
+            <option>Латвия</option>
+            <option>Эстония</option>
+            <option>США</option>
+          </select>
+            <br>
+          <label class="city">Город:</label>
+          <select class="city" name="city">
+            
+            <option>Беларусь</option>
+            <option>Россия</option>
+            <option>Украина</option>
+            <option>Польша</option>
+            <option>Литва</option>
+            <option>Латвия</option>
+            <option>Эстония</option>
+            <option>США</option>
+          </select>
+        </fieldset>
+      </form>
+    </article>
+    <!--<aside>
+      Тут могла быть ваша реклама
+    </aside>-->
+  </main>
+</body>
+
+</html>
